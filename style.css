@@ -11,7 +11,13 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
+  .container {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .container {
     padding: 1rem 3rem;
   }
