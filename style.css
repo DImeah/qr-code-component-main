@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  margin: 50%;
+  margin: 20% 50% 50% 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
